@@ -9,6 +9,12 @@ Install virtualenv and set up a virtual environment
 
 `virtualenv venv`
 
+Mac/Linux:
+`source venv/bin/activate`
+
+Windows (I think)
+`./venv/bin/activate`
+
 Install dependencies
 
 `pip install -r requirements.txt`
