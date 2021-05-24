@@ -13,7 +13,7 @@ def compound_place_proxy(request: Request, rails_path: str):
     print(f'Path: {rails_path}')
     print(f'Query params: {query_params}')
 
-    url = f'http://localhost:3000/{rails_path}'
+    url = f'http://localhost:4000/{rails_path}'
 
     if query_params != '':
         url += f'?{query_params}'
